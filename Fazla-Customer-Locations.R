@@ -16,7 +16,7 @@ ggplot() +
 
 # GET MAP
 map_btc <- get_stamenmap(bbox = c(left = 28.3, bottom = 40.822255, right =
-                                    29.8, top = 41.4), zoom = 15, maptype = 'toner-hybrid')
+                                    29.8, top = 41.4), zoom = 14, maptype = 'toner-hybrid')
 
 ggmap(map_btc)
 
